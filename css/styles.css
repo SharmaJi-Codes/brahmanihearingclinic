@@ -107,7 +107,20 @@ hr{
 .list-causes{
   text-align: left;
 }
-
+/* Testimonials Section */
+#testimonials{
+  text-align: center;
+  background-color: #F58634;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
 /* Gallery */
 #gallery{
   text-align: center;
@@ -199,19 +212,19 @@ hr{
 
 /* CTA Section */
 #cta{
-  background-color: #F58634;
+  background-color: #fff;
   padding: 7% 15%;
   text-align: center;
 }
 .cta-heading{
-  color: #fff;
+  color: #F58634;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 .cta-content{
-  color: #fff;
+  color: #F58634;
 }
 
 /* Footer Section */
@@ -224,6 +237,16 @@ hr{
 .social-icon{
   margin: 20px 10px;
   color: #F58634;
+}
+#footer-index{
+  background-color: #F58634;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon-index{
+  margin: 20px 10px;
+  color: #fff;
 }
 
 @media (max-width: 1028px){
